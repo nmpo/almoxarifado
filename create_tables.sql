@@ -107,7 +107,6 @@ CREATE TABLE `estoque_minimo` (
   KEY `id_material` (`id_material`)
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 
-
 CREATE TABLE `forncedores_materiais` (
   `id` int NOT NULL AUTO_INCREMENT,
   `id_fornecedor` int NOT NULL,
